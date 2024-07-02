@@ -7,6 +7,6 @@ object q1{
     def main(args: Array[String]): Unit = {
         val input = "Hello World!"
         val reversed = stringreverse(input)
-        println("The reverse of " + input + "is " + reversed)
+        println(stringreverse(input))
     }
 }
