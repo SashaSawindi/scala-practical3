@@ -6,6 +6,6 @@ object StringFilter {
   def main(args: Array[String]): Unit = {
     val inputStrings = List("Scala", "programming", "is", "fun", "and", "powerful")
     val filteredStrings = filterLongStrings(inputStrings)
-    println("Filtered strings: " + filteredStrings.mkString(", "))
+    println("Filtered strings: " + filteredStrings)
   }
 }
